@@ -16,7 +16,7 @@ public class MainActivityViewModel extends ViewModel implements SavedStateViewMo
     private Gson gson;
 
     @Inject
-    public MainActivityViewModel(Gson gson){
+        public MainActivityViewModel(Gson gson){
         this.gson = gson;
     }
 

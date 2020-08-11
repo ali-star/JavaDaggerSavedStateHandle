@@ -2,12 +2,9 @@ package alistar.sample.javamvvm;
 
 import android.os.Bundle;
 import android.widget.Toast;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.lifecycle.ViewModelProvider;
-
 import javax.inject.Inject;
-
 import alistar.sample.javamvvm.di.ViewModelCreator;
 
 public class MainActivity extends AppCompatActivity {
